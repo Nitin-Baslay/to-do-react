@@ -1,0 +1,37 @@
+.form {
+    background-color: grey;
+    width: 60rem;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px;    
+    margin-bottom: 50px;
+  }
+  input,label{
+  margin: 10px 25px;
+  font-size: 25px;
+  font-weight: bolder;
+  }
+  input{
+      width: 300px;
+      border: none;
+      border-radius: 10px;
+      border-bottom: 5px solid black;
+  }
+  .task{
+      margin-left: 135px;
+      width: 500px;
+      height: 80px;
+  }
+  button{
+      border: none;
+      border-radius: 10px;
+      background-color: aqua;
+      font-size: 30px;
+      font-weight: bolder;
+      padding: 5px;
+      margin: 20px 400px;
+      box-shadow: 10px 10px 5px; 
+  }
+  button:hover{
+      background-color: red;
+  }
