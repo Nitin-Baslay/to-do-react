@@ -1,0 +1,80 @@
+.form {
+  background-color: grey;
+  width: 60rem;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px;
+  margin-bottom: 50px;
+}
+.mast,
+label {
+  margin: 10px 25px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.mast {
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 5px solid black;
+}
+.inp1 {
+  margin-left: 130px;
+}
+.task {
+  margin-left: 135px;
+  width: 500px;
+  height: 80px;
+}
+.buttons {
+  border: none;
+  border-radius: 10px;
+  background-color: aqua;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 5px 10px;
+}
+button:hover {
+  background-color: red;
+}
+.level1 {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 769px) {
+  .form {
+    width: 45rem;
+    margin: auto;
+  }
+  .buttons {
+    margin-left: 40vw;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .form {
+    width: 90vw;
+    margin: auto;
+  }
+  .buttons {
+    margin-left: 30vw;
+  }
+  .level1,
+  .level2 {
+    display: block;
+  }
+  .inp1 {
+    margin-left: 25px;
+  }
+  label {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .form {
+    width: 100vw;
+  }
+  .mast{
+    width: 280px;
+  }
+}
