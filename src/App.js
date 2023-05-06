@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="appmain">
       <Form oninputData={inputData} />
       <div className="App">
         {output.map((ele) => {
